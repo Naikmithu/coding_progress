@@ -24,4 +24,26 @@ Difference
 
 But there is CPython has capabilies of Compilation+Interpretation
 
-    
+Date : 12-02-2025,11:20
+# also working on shell_command python project 
+
+Lokking at all the libraries its mindblowing    
+
+Date : 13-02-2025 
+
+Solved 1 easy question (How many numbers are smaller than the current number):
+-> here also used hash_map or say (dictionary)
+
+
+# Completed 6 tasks in shell_command project 
+
+Date 14-02-2025
+# Completed 2 more tasks in shell_command ...
+Will give a brief of what all i studied in Shell_command project till now 
+
+Important libraries :
+-> os ,subprocess,shuttil
+-> shuttil here i used to fetch the path of shell builtin commands from my system (shuttil.which())
+-> shuttil is direct but in os we need to specify the path like (os.getenv(PATH))
+-> subprocess here its used to run the builtin commands (same like shell does)
+
