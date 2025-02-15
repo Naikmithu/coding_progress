@@ -37,7 +37,7 @@ Solved 1 easy question (How many numbers are smaller than the current number):
 
 # Completed 6 tasks in shell_command project 
 
-Date 14-02-2025
+Date : 14-02-2025
 # Completed 2 more tasks in shell_command ...
 Will give a brief of what all i studied in Shell_command project till now 
 
@@ -46,4 +46,6 @@ Important libraries :
 -> shuttil here i used to fetch the path of shell builtin commands from my system (shuttil.which())
 -> shuttil is direct but in os we need to specify the path like (os.getenv(PATH))
 -> subprocess here its used to run the builtin commands (same like shell does)
+
+Date : 15-02-2025
 
