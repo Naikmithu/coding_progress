@@ -32,12 +32,34 @@ def spiral_matrix(matrix):
             for row in range(row_ed-1,row_st-1,-1):
                 print(matrix[row][col_st])
             col_st+=1
+       
+def spiral_alternative(matrix):
+    
+    ret = []
+    while matrix:
+        ret+=matrix.pop() #first row 
         
-        
+        # append last element of each list 
+        if matrix and matrix[0]:
+            for row in matrix:
+                ret.append(row.pop())
+        # append last list in reverse
+        if matrix :
+            ret+=(matrix.pop()[::-1]) #matrix.pop() removes last list in matrix
             
+        if matrix and matrix[0]:
+            for row in matrix[::-1]:
+                ret.append(row.pop(0))
+    
+    print(ret)
 
 matrix = [[0,1,2,98],
           [3,4,5,65],
           [6,7,8,77]]
 
 spiral_matrix(matrix)
+spiral_alternative(matrix)
+
+
+# Alternative approach :
+
