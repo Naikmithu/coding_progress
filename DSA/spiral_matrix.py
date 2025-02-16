@@ -37,7 +37,7 @@ def spiral_alternative(matrix):
     
     ret = []
     while matrix:
-        ret+=matrix.pop() #first row 
+        ret+=matrix.pop(0) #first row 
         
         # append last element of each list 
         if matrix and matrix[0]:
@@ -53,9 +53,9 @@ def spiral_alternative(matrix):
     
     print(ret)
 
-matrix = [[0,1,2,98],
-          [3,4,5,65],
-          [6,7,8,77]]
+matrix = [[0,1,2,],
+          [3,4,5,],
+          [6,7,8,]]
 
 spiral_matrix(matrix)
 spiral_alternative(matrix)
