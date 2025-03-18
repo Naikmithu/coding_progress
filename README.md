@@ -52,4 +52,22 @@ Date : 15-02-2025
 -> Spiral matrix done easy one but should be aware of all loop 
 
 Date : 16-02-2025 
+-> another good approach of spiral matrix explored 
+
+Date : 17-02-2025
+
+# Completed 2 more task on shell_command project 
+->learned about os.chdir() which changes the directory
+
+Date : 18 :-
+
+Working on a project Automation of Jira 
+Learned many things here will talk on it later 
+
+Date 22:
+
+Completed a section on shell_command project 
+
+Date 23 :
+
 
