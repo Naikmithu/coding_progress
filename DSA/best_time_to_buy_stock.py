@@ -1,6 +1,6 @@
 # Greedy Algorithm :
 # Two pointers iterate , for each l iterate r across and calculate profit,
-# when r>l , we know we have iterated to all potential max profits , so move l to rand repeat 
+# when r>l , we know we have iterated to all potential max profits , so move l to r and repeat 
 
 # A Greedy Algorithm is a problem-solving method where you make the best choice at each step without thinking about future consequences.
 # The idea is to take the locally optimal choice at every stage, 
